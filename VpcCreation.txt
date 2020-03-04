@@ -1,0 +1,26 @@
+
+CIDR to IPv4 Conversion
+subnet caleculation 
+vpc 10.0.0.0/16 65,536
+1>public subnet subnet 
+10.0.1.0/24 256
+2>public subnet
+10.0.2.0/24
+
+private caleculation
+1>10.0.3.0/24
+2>10.0.4.0/24
+in action
+modify auto asign ipaddress
+
+1>create vpc 
+2>create subnets
+3>create igw and add this igw to vpc
+4>create rout table for private and public 
+5>assign subnets to rout table
+in routs=====>we configure like private subnetes to private routetable
+6>assign public subnetes to public route table
+7>create NAT gateway and assign private ip to NAT gateway
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+then create an instance based on private and public subnetes and vpc
+connect it and then ssh to private instance and and can make any installations.. 

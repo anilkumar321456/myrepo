@@ -1,0 +1,23 @@
+pipenine script 
+neuxs===============================>
+plugin :nexus artifact uploadloader
+snippet: neuxs artiafact uploader
+ 
+tomcat================>
+plugin:deploy to container
+snippet: deploy war/ear to container
+
+push to docker hub
+plugins======>
+dokcer
+cloud bees docker build and publish
+docker plugin
+docker-buildstep
+..snippet generator ====>
+with credentials
+
+kubernetes deploy 
+plugin :ssh agent
+snippet getnerator: sshagent
+authentication with username and privatekey..
+   

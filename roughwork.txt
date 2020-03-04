@@ -1,0 +1,33 @@
+ansible setup
+in Client=============>
+sudo -i 
+vi /etc/hostname
+web1 save reboot
+
+we should create two users with the same name in Controller and client
+sudo vi /etc/ssh/sshd_config
+password authentication yes
+sudo visudo 
+user (ALL:ALL) NOPASSWD: ALL
+
+In ControlleR================>
+vi /etc/hosts
+clientPrivateip hostname
+
+ssh hostname
+
+key generation
+ssh-keygen
+ssh-copy-id ubuntu@private/publicip
+
+GO TO ConrtrollER==============>
+apt update
+apt install ansible
+vi /etc/ansible/hosts
+databases:
+host name1
+host name2
+
+
+ansible -m ping all
+vi /etc/ansible/hosts
