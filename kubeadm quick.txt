@@ -1,5 +1,6 @@
 to install all setup from the scratch
 http://mithuntechnologies-devops.blogspot.com/
+https://www.cloudsigma.com/how-to-install-and-use-kubernetes-on-ubuntu-20-04/ 
 
 sonarQube setup
 https://mithuntechnologies-devops.blogspot.com/2019/08/sonarqube-installation-linux-server.html
