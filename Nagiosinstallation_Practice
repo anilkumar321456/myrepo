@@ -1,0 +1,9 @@
+https://support.nagios.com/kb/article/nagios-core-installing-nagios-core-from-source-96.html#Ubuntu
+
+Have to go to the /usr/local/nagios/etc
+
+vi nagios.cfg
+cfg_dir:/usr/local/nagios/etc/servers  #uncomment
+
+localhost.cfg file hast tobe changed
+and have to configure ipaddress at all the services
